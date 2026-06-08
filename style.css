@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #E7E1B1;
+    box-shadow: 0px 4px 4px rgba(231, 225, 177, 0.25)
+;
+}
+
+.navbar{
+    display: flex; 
+    align-items: center;
+    width: 70%;
+    margin: auto;
+   
+}
+
+.navbar .logo{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.navbar .logo p{
+    color: #0D530E;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+
+.otherbuttons{
+    margin-left: auto;
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.otherbuttons a{
+    text-decoration: none;
+    color: #0D530E;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    cursor: pointer;
+}
+
+
+.home-content{
+    background-color: #FBF5DD;
+    margin:auto;
+}
+
+.home-content .contents{
+    display: flex;
+    max-width: 1100px;
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 96px;
+    gap: 111px;
+    margin: auto;
+}
+
+.home-content .contents .left-content .topContent{
+    background-color: #E7E1B1;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #306D29;
+    border-radius: 999px;
+    padding: 6px 14px;
+    margin-bottom: 24px;
+}
+
+.home-content .contents .left-content .topContent span{
+    color: #306D29;
+    font-size: 0.8125rem;
+    font-weight: 600;
+}
+
+.home-content .contents .left-content .topContent span i{
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+}
+
+
+.left-content h1{
+    color: #0D530E;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+    font-size: 2.5rem;
+}
+
+.left-content h2{
+    color: #306D29;
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-bottom: 24px;
+    letter-spacing: 0.03em;
+}
+
+.left-content p{
+    color: rgb(74,103,65);
+    font-size: 0.9375rem;
+    font-weight: 400;
+    width: 480px;
+    margin-bottom: 32px;
+}
+
+.left-content .leftContentButton{
+    display: flex;
+    gap: 16px;
+}
+
+.left-content .leftContentButton .btn1{
+    border-radius: 13px;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    height: 48px;
+    width: 174px;
+    background-color: #306D29;
+    color: #FBF5DD;
+    border: none;
+    cursor: pointer;
+}
+
+.left-content .leftContentButton .btn1 span{
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+
+
+.left-content .leftContentButton .btn2{
+    border-radius: 13px;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    height: 48px;
+    width: 174px;
+    background-color: transparent;
+    color: #306D29;
+    border: 1px solid #306D29;
+    cursor: pointer;
+}
