@@ -156,3 +156,143 @@ nav{
     border: 1px solid #306D29;
     cursor: pointer;
 }
+
+
+.home-content .contents .right-content{
+    width: 30.875em;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.home-content .contents .right-content .content{
+    width: 360px;
+    height: 466px;
+    background-color: #E7E1B1;
+    border: 1px solid rgb(201,196,138);
+    border-radius: 20px;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.home-content .contents .right-content .content {
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+}
+
+.home-content .contents .right-content .content .ImgName {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.home-content .contents .right-content .content .ImgName .image img{
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+}
+
+.home-content .contents .right-content .content .ImgName .image{
+    width: 54px;
+    height: 54px;
+    border: 1px solid #306D29;
+    border-radius: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.home-content .contents .right-content .content .ImgName .Jobname .name{
+    color: #0D530E;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.home-content .contents .right-content .content .ImgName .Jobname .Jobs{
+    color: #306D29;
+    font-weight: 500;
+    font-size: 0.8125rem;
+}
+
+.home-content .contents .right-content .content .Tech{
+    background-color: #FBF5DD;
+    border: 1px solid rgb(201, 196, 138);
+    box-shadow: 0px 4px 4px rgba(231, 225, 177, 0.25);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.home-content .contents .right-content .content .Tech .TechStackTitle{
+    color: rgb(74,103,65);
+    font-size: 0.75rem;
+    margin-bottom: 6px;
+    letter-spacing: 0.05rm;
+    text-transform: uppercase;
+}
+
+.home-content .contents .right-content .content .Tech .TechStackItems{
+    color: rgb(13, 83, 14);
+    font-weight: 600;
+    font-size: 0.9375rem;
+}
+
+.home-content .contents .right-content .content .Skill{
+    background-color: #F8F5DD;
+    border: 1px solid rgb(201, 196, 138);
+    border-radius: 10px;
+    padding: 14px 16px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home-content .contents .right-content .content .Skill .CurrentTitle{
+    color: rgb(138, 158, 122);
+    font-size: 0.75rem;
+}
+
+.home-content .contents .right-content .content .Skill .CurrentItems{
+    color: #306D29;
+    font-size: 0.875rem;
+}
+
+.home-content .contents .right-content .content .Skill .CurrentLanguage{
+    color: #306D29;
+    font-size: 0.875rem;
+    padding-left: 16px;
+}
+
+.home-content .contents .right-content .content .Skill .CurrentEnd{
+    color: #306D29;
+    font-size: 0.875rem;
+}
+
+.home-content .contents .right-content .content .ProgrammingLanguages{
+    width: 100%;
+
+}
+
+.home-content .contents .right-content .content .ProgrammingLanguages .Languages{
+    display: flex;
+    margin-top: 16px;
+    gap: 30px;
+}
+
+.home-content .contents .right-content .content .ProgrammingLanguages .LanguagesBox{
+    background-color: #FBF5DD;
+    gap: 6px;
+    border: 1px solid rgb(201, 196, 138);
+    border-radius: 10px;
+    padding: 10px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+}
