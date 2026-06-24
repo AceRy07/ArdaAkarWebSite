@@ -12,6 +12,8 @@ header{
     width: 100%;
 }
 
+/* #region Navbar Section */
+
 nav{
     width: 100%;
     padding: 20px;
@@ -56,7 +58,9 @@ nav{
     cursor: pointer;
 }
 
+/* #endregion Navbar Section */
 
+/* #region Home Section */
 .home-content{
     background-color: #FBF5DD;
     margin:auto;
@@ -322,12 +326,14 @@ nav{
     color: #0D530E;
 }
 
+/* #endregion Programming Languages Section */
 
-/* About Section */
+/* #region About Section */
 
 #about{
     width: 100%;
-    margin-top: 10rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     justify-content: center;
 }
 
@@ -339,6 +345,7 @@ nav{
     gap: 16px;
     justify-content: center;    
     width: 100%;
+    padding: 96px 24px;
 }
 
 .content .text .who{
@@ -457,3 +464,128 @@ nav{
     font-size: 0.9375rem;
     font-weight: 500;
 }
+/* #endregion About Section */
+
+/* #region Skill Section */
+
+#skill{
+    width: 100%;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    
+}
+
+#skill .content{
+    background-color: rgb(251, 245, 221);
+    width: 100%;
+    padding: 24px;
+    margin: auto;
+}
+
+#skill .content .contextTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+#skill .content .contextTop .text1{
+    color: rgb(48,109,41);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+}
+
+#skill .content .contextTop .text2{
+    color: rgb(13, 83,14);
+    font-weight: 900;
+    font-size: 1.8rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+}
+
+#skill .content .contextTop .line{
+    width: 80px;
+    border: 1px solid rgb(13, 83,14);
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+#skill .content .contextBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#skill .content .contextBox .Box{
+    background-color: rgb(238, 232, 187);
+    border: 1px solid rgb(201,196,138);
+    border-radius: 16px;
+    transition: 0.25s;
+    transform: translateY((0px));
+    box-shadow: rgba(13,83,14,0.06) 0px 4px 12px;
+    padding: 32px 28px;
+    width: 22rem;
+    height: 21rem;
+}
+
+
+#skill .content .contextBox .Box .Icon{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(48, 109, 41, 0.1);
+    border: 1px solid rgba(48, 109, 41, 0.2);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: rgb(48, 109, 41);
+    transition: 0.25s;
+}
+
+#skill .content .contextBox .Box .Icon i{
+    color: rgb(48, 109, 41);
+    font-size: 1.5rem;
+}
+
+
+#skill .content .contextBox .Box .Title{
+    color: rgb(13, 83, 14);
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;    
+}
+
+#skill .content .contextBox .Box .description{
+    color: rgb(58, 92, 50);
+    font-size: 0.9375rem;
+    line-height: 1.85;
+    margin-bottom: 20px;
+}
+
+#skill .content .contextBox .Box .languageSkill{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#skill .content .contextBox .Box .languageSkill .skillBox{
+    background-color: rgba(48, 109, 41, 0.1);
+    border: 1px solid rgba(48, 109, 41, 0.22);
+    color:rgb(13, 83, 14);
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 4px 10px;
+}
+
+
+/* #endregion Skill Section */
+
+
